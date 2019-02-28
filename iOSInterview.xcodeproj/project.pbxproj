@@ -7,29 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		655E5117222822B20032E481 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 655E5116222822B20032E481 /* AppDelegate.m */; };
-		655E511A222822B20032E481 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655E5119222822B20032E481 /* ViewController.m */; };
-		655E511D222822B20032E481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655E511B222822B20032E481 /* Main.storyboard */; };
-		655E511F222822B30032E481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655E511E222822B30032E481 /* Assets.xcassets */; };
-		655E5122222822B30032E481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655E5120222822B30032E481 /* LaunchScreen.storyboard */; };
-		655E5125222822B30032E481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655E5124222822B30032E481 /* main.m */; };
+		655E5132222822CD0032E481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655E5131222822CD0032E481 /* main.m */; };
+		655E513B222823230032E481 /* IncorrectUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 655E5137222823220032E481 /* IncorrectUserModel.m */; };
+		655E513C222823230032E481 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 655E5138222823220032E481 /* UserModel.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		655E512D222822CD0032E481 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		655E5112222822B20032E481 /* iOSInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		655E5115222822B20032E481 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		655E5116222822B20032E481 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		655E5118222822B20032E481 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		655E5119222822B20032E481 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		655E511C222822B20032E481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		655E511E222822B30032E481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		655E5121222822B30032E481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		655E5123222822B30032E481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		655E5124222822B30032E481 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		655E512F222822CD0032E481 /* CodingStyle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingStyle; sourceTree = BUILT_PRODUCTS_DIR; };
+		655E5131222822CD0032E481 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		655E5137222823220032E481 /* IncorrectUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncorrectUserModel.m; sourceTree = "<group>"; };
+		655E5138222823220032E481 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		655E5139222823220032E481 /* IncorrectUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncorrectUserModel.h; sourceTree = "<group>"; };
+		655E513A222823220032E481 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		655E510F222822B20032E481 /* Frameworks */ = {
+		655E512C222822CD0032E481 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,7 +47,7 @@
 		655E5109222822B20032E481 = {
 			isa = PBXGroup;
 			children = (
-				655E5114222822B20032E481 /* iOSInterview */,
+				655E5130222822CD0032E481 /* CodingStyle */,
 				655E5113222822B20032E481 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,46 +55,50 @@
 		655E5113222822B20032E481 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				655E5112222822B20032E481 /* iOSInterview.app */,
+				655E512F222822CD0032E481 /* CodingStyle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		655E5114222822B20032E481 /* iOSInterview */ = {
+		655E5130222822CD0032E481 /* CodingStyle */ = {
 			isa = PBXGroup;
 			children = (
-				655E5115222822B20032E481 /* AppDelegate.h */,
-				655E5116222822B20032E481 /* AppDelegate.m */,
-				655E5118222822B20032E481 /* ViewController.h */,
-				655E5119222822B20032E481 /* ViewController.m */,
-				655E511B222822B20032E481 /* Main.storyboard */,
-				655E511E222822B30032E481 /* Assets.xcassets */,
-				655E5120222822B30032E481 /* LaunchScreen.storyboard */,
-				655E5123222822B30032E481 /* Info.plist */,
-				655E5124222822B30032E481 /* main.m */,
+				655E5136222823220032E481 /* Model */,
+				655E5131222822CD0032E481 /* main.m */,
 			);
-			path = iOSInterview;
+			path = CodingStyle;
+			sourceTree = "<group>";
+		};
+		655E5136222823220032E481 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				655E5137222823220032E481 /* IncorrectUserModel.m */,
+				655E5138222823220032E481 /* UserModel.m */,
+				655E5139222823220032E481 /* IncorrectUserModel.h */,
+				655E513A222823220032E481 /* UserModel.h */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		655E5111222822B20032E481 /* iOSInterview */ = {
+		655E512E222822CD0032E481 /* CodingStyle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 655E5128222822B30032E481 /* Build configuration list for PBXNativeTarget "iOSInterview" */;
+			buildConfigurationList = 655E5133222822CD0032E481 /* Build configuration list for PBXNativeTarget "CodingStyle" */;
 			buildPhases = (
-				655E510E222822B20032E481 /* Sources */,
-				655E510F222822B20032E481 /* Frameworks */,
-				655E5110222822B20032E481 /* Resources */,
+				655E512B222822CD0032E481 /* Sources */,
+				655E512C222822CD0032E481 /* Frameworks */,
+				655E512D222822CD0032E481 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iOSInterview;
-			productName = iOSInterview;
-			productReference = 655E5112222822B20032E481 /* iOSInterview.app */;
-			productType = "com.apple.product-type.application";
+			name = CodingStyle;
+			productName = CodingStyle;
+			productReference = 655E512F222822CD0032E481 /* CodingStyle */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,7 +109,7 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Yi Zhang";
 				TargetAttributes = {
-					655E5111222822B20032E481 = {
+					655E512E222822CD0032E481 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -118,55 +127,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				655E5111222822B20032E481 /* iOSInterview */,
+				655E512E222822CD0032E481 /* CodingStyle */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		655E5110222822B20032E481 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				655E5122222822B30032E481 /* LaunchScreen.storyboard in Resources */,
-				655E511F222822B30032E481 /* Assets.xcassets in Resources */,
-				655E511D222822B20032E481 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		655E510E222822B20032E481 /* Sources */ = {
+		655E512B222822CD0032E481 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655E511A222822B20032E481 /* ViewController.m in Sources */,
-				655E5125222822B30032E481 /* main.m in Sources */,
-				655E5117222822B20032E481 /* AppDelegate.m in Sources */,
+				655E513B222823230032E481 /* IncorrectUserModel.m in Sources */,
+				655E5132222822CD0032E481 /* main.m in Sources */,
+				655E513C222823230032E481 /* UserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		655E511B222822B20032E481 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				655E511C222822B20032E481 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		655E5120222822B30032E481 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				655E5121222822B30032E481 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		655E5126222822B30032E481 /* Debug */ = {
@@ -281,37 +258,27 @@
 			};
 			name = Release;
 		};
-		655E5129222822B30032E481 /* Debug */ = {
+		655E5134222822CD0032E481 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Y7626TS68;
-				INFOPLIST_FILE = iOSInterview/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Yi.iOSInterview;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		655E512A222822B30032E481 /* Release */ = {
+		655E5135222822CD0032E481 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Y7626TS68;
-				INFOPLIST_FILE = iOSInterview/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Yi.iOSInterview;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -327,11 +294,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		655E5128222822B30032E481 /* Build configuration list for PBXNativeTarget "iOSInterview" */ = {
+		655E5133222822CD0032E481 /* Build configuration list for PBXNativeTarget "CodingStyle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				655E5129222822B30032E481 /* Debug */,
-				655E512A222822B30032E481 /* Release */,
+				655E5134222822CD0032E481 /* Debug */,
+				655E5135222822CD0032E481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
