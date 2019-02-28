@@ -23,7 +23,6 @@
     [super reloadData];
     
     if (containerView == nil) {
-        NSLog(@"containerView == nil");
         containerView = [[UIView alloc] initWithFrame:CGRectZero];
         containerView.backgroundColor = [UIColor whiteColor];
         
@@ -32,7 +31,6 @@
     }
     
     if (reusePool == nil) {
-        NSLog(@"reusePool == nil");
         reusePool = [[ViewReusePool alloc] init];
     }
     
@@ -46,12 +44,10 @@
 {
     NSArray <NSString *> *arrayTitles = nil;
     if ([self.indexedDataSource respondsToSelector:@selector(indexTitlesForIndexTableView:)]) {
-        NSLog(@"Responds to indexTitlesForIndexTableView");
         arrayTitles = [self.indexedDataSource indexTitlesForIndexTableView:self];
     }
     
     if (!arrayTitles || arrayTitles.count <= 0) {
-        NSLog(@"ContainerView setHidden YES");
         [containerView setHidden:YES];
         return;
     }
@@ -69,7 +65,7 @@
             button.backgroundColor = [UIColor whiteColor];
             // 注册button到重用池
             [reusePool addUsingView:button];
-            NSLog(@"新建了一个button");
+            NSLog(@"新建 button");
         }
         else {
             NSLog(@"重用 button");

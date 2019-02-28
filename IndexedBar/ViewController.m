@@ -40,6 +40,8 @@
     for (int i = 0; i < 100; i++) {
         [dataSource addObject:@(i+1)];
     }
+    
+    
 }
 
 #pragma mark - IndexedTableViewDataSource
