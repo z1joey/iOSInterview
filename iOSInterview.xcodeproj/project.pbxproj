@@ -10,6 +10,14 @@
 		655E5132222822CD0032E481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655E5131222822CD0032E481 /* main.m */; };
 		655E513B222823230032E481 /* IncorrectUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 655E5137222823220032E481 /* IncorrectUserModel.m */; };
 		655E513C222823230032E481 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 655E5138222823220032E481 /* UserModel.m */; };
+		658799A2222865E0004C2579 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 658799A1222865E0004C2579 /* AppDelegate.m */; };
+		658799A5222865E0004C2579 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 658799A4222865E0004C2579 /* ViewController.m */; };
+		658799A8222865E0004C2579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658799A6222865E0004C2579 /* Main.storyboard */; };
+		658799AA222865E1004C2579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658799A9222865E1004C2579 /* Assets.xcassets */; };
+		658799AD222865E1004C2579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658799AB222865E1004C2579 /* LaunchScreen.storyboard */; };
+		658799B0222865E1004C2579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 658799AF222865E1004C2579 /* main.m */; };
+		658799B622286605004C2579 /* ViewReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 658799B522286605004C2579 /* ViewReusePool.m */; };
+		658799B9222868EA004C2579 /* IndexedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 658799B8222868EA004C2579 /* IndexedTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,10 +39,31 @@
 		655E5138222823220032E481 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		655E5139222823220032E481 /* IncorrectUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncorrectUserModel.h; sourceTree = "<group>"; };
 		655E513A222823220032E481 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		6587999E222865E0004C2579 /* IndexedBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndexedBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		658799A0222865E0004C2579 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		658799A1222865E0004C2579 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		658799A3222865E0004C2579 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		658799A4222865E0004C2579 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		658799A7222865E0004C2579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		658799A9222865E1004C2579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		658799AC222865E1004C2579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		658799AE222865E1004C2579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658799AF222865E1004C2579 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		658799B422286605004C2579 /* ViewReusePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewReusePool.h; sourceTree = "<group>"; };
+		658799B522286605004C2579 /* ViewReusePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewReusePool.m; sourceTree = "<group>"; };
+		658799B7222868EA004C2579 /* IndexedTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexedTableView.h; sourceTree = "<group>"; };
+		658799B8222868EA004C2579 /* IndexedTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexedTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		655E512C222822CD0032E481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6587999B222865E0004C2579 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				655E5130222822CD0032E481 /* CodingStyle */,
+				6587999F222865E0004C2579 /* IndexedBar */,
 				655E5113222822B20032E481 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				655E512F222822CD0032E481 /* CodingStyle */,
+				6587999E222865E0004C2579 /* IndexedBar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,12 +103,32 @@
 		655E5136222823220032E481 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				655E5137222823220032E481 /* IncorrectUserModel.m */,
-				655E5138222823220032E481 /* UserModel.m */,
 				655E5139222823220032E481 /* IncorrectUserModel.h */,
+				655E5137222823220032E481 /* IncorrectUserModel.m */,
 				655E513A222823220032E481 /* UserModel.h */,
+				655E5138222823220032E481 /* UserModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		6587999F222865E0004C2579 /* IndexedBar */ = {
+			isa = PBXGroup;
+			children = (
+				658799A0222865E0004C2579 /* AppDelegate.h */,
+				658799A1222865E0004C2579 /* AppDelegate.m */,
+				658799A3222865E0004C2579 /* ViewController.h */,
+				658799A4222865E0004C2579 /* ViewController.m */,
+				658799A6222865E0004C2579 /* Main.storyboard */,
+				658799A9222865E1004C2579 /* Assets.xcassets */,
+				658799AB222865E1004C2579 /* LaunchScreen.storyboard */,
+				658799AE222865E1004C2579 /* Info.plist */,
+				658799AF222865E1004C2579 /* main.m */,
+				658799B422286605004C2579 /* ViewReusePool.h */,
+				658799B522286605004C2579 /* ViewReusePool.m */,
+				658799B7222868EA004C2579 /* IndexedTableView.h */,
+				658799B8222868EA004C2579 /* IndexedTableView.m */,
+			);
+			path = IndexedBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +151,23 @@
 			productReference = 655E512F222822CD0032E481 /* CodingStyle */;
 			productType = "com.apple.product-type.tool";
 		};
+		6587999D222865E0004C2579 /* IndexedBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658799B3222865E1004C2579 /* Build configuration list for PBXNativeTarget "IndexedBar" */;
+			buildPhases = (
+				6587999A222865E0004C2579 /* Sources */,
+				6587999B222865E0004C2579 /* Frameworks */,
+				6587999C222865E0004C2579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndexedBar;
+			productName = IndexedBar;
+			productReference = 6587999E222865E0004C2579 /* IndexedBar.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -110,6 +178,9 @@
 				ORGANIZATIONNAME = "Yi Zhang";
 				TargetAttributes = {
 					655E512E222822CD0032E481 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6587999D222865E0004C2579 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -128,9 +199,23 @@
 			projectRoot = "";
 			targets = (
 				655E512E222822CD0032E481 /* CodingStyle */,
+				6587999D222865E0004C2579 /* IndexedBar */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6587999C222865E0004C2579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658799AD222865E1004C2579 /* LaunchScreen.storyboard in Resources */,
+				658799AA222865E1004C2579 /* Assets.xcassets in Resources */,
+				658799A8222865E0004C2579 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		655E512B222822CD0032E481 /* Sources */ = {
@@ -143,7 +228,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6587999A222865E0004C2579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658799A5222865E0004C2579 /* ViewController.m in Sources */,
+				658799B9222868EA004C2579 /* IndexedTableView.m in Sources */,
+				658799B0222865E1004C2579 /* main.m in Sources */,
+				658799A2222865E0004C2579 /* AppDelegate.m in Sources */,
+				658799B622286605004C2579 /* ViewReusePool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		658799A6222865E0004C2579 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658799A7222865E0004C2579 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		658799AB222865E1004C2579 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658799AC222865E1004C2579 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		655E5126222822B30032E481 /* Debug */ = {
@@ -282,6 +398,40 @@
 			};
 			name = Release;
 		};
+		658799B1222865E1004C2579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = IndexedBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.IndexedBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		658799B2222865E1004C2579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = IndexedBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.IndexedBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -299,6 +449,15 @@
 			buildConfigurations = (
 				655E5134222822CD0032E481 /* Debug */,
 				655E5135222822CD0032E481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		658799B3222865E1004C2579 /* Build configuration list for PBXNativeTarget "IndexedBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658799B1222865E1004C2579 /* Debug */,
+				658799B2222865E1004C2579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

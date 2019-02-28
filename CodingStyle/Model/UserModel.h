@@ -19,7 +19,8 @@ typedef NS_ENUM(NSUInteger, ZYGender)
 {
     ZYGenderMan,
     ZYGenderWoman,
-    ZYGenderOthers
+    ZYGenderOthers,
+    ZYGenderNone
 };
 
 @interface UserModel : NSObject<NSCopying>
@@ -42,6 +43,8 @@ typedef NS_ENUM(NSUInteger, ZYGender)
 - (instancetype)initWithName:(NSString *)name age:(NSUInteger)age gender:(ZYGender)gender;
 - (instancetype)initWithName:(NSString *)name age:(NSUInteger)age;
 + (instancetype)userWithName:(NSString *)name age:(NSUInteger)age gender:(ZYGender)gender;
+- (void)addFriend:(UserModel *)user;
+- (void)removeFriend:(UserModel *)user;
 
 @end
 

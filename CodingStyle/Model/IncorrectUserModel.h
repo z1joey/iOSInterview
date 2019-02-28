@@ -10,22 +10,30 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-// 避免混用驼峰法和下划线法
-// 左括号前加空格或者换行，右括号后加空格
-// 冒号两侧都加空格
+/**
+ 避免混用驼峰法和下划线法
+ 左括号前加空格或者换行，右括号后加空格
+ 冒号两侧都加空格
+ */
 typedef enum :NSUInteger{
     UserSex_Man,
     UserSex_Woman
 }UserSex;
 
+/**
+ @interface与@property之间空一行
+ */
 @interface IncorrectUserModel : NSObject
-
 @property(nonatomic, strong) NSString *name;
 @property(assign, nonatomic) int age;
 @property(nonatomic, assign) UserSex sex;
 
-// -后面应有空格
--(id)initUserModelWithUserName: (NSString *)name withAge:(int)age;
+/**
+ -后面应有空格
+ 方法名与参数之间不需要空格
+ 星号前要有空格
+ */
+-(id)initUserModelWithUserName: (NSString*)name withAge:(int)age;
 
 -(void)doLogIn;
 
