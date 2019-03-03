@@ -20,7 +20,7 @@
     // Override point for customization after application launch.
     
     RuntimeObject *obj = [[RuntimeObject alloc] init];
-    // test没有实现
+    
     [obj test];
     
     return YES;

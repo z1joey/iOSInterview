@@ -11,37 +11,47 @@
 
 @implementation RuntimeObject
 
-+ (void)load
+void testImp (void)
 {
-    // 获取两个方法的方法结构体
-    Method test = class_getInstanceMethod(self, @selector(test));
-    Method otherTest = class_getInstanceMethod(self, @selector(otherTest));
-    // 交换两个方法的实现
-    method_exchangeImplementations(test, otherTest);
+    NSLog(@"test invoke");
 }
 
-- (void)test
-{
-    NSLog(@"test");
-}
+//#pragma mark - Method Swizzling
+//+ (void)load
+//{
+//    // 获取两个方法的方法结构体
+//    Method test = class_getInstanceMethod(self, @selector(test));
+//    Method otherTest = class_getInstanceMethod(self, @selector(otherTest));
+//    // 交换两个方法的实现
+//    method_exchangeImplementations(test, otherTest);
+//}
+//
+//- (void)test
+//{
+//    NSLog(@"test");
+//}
+//
+//- (void)otherTest
+//{
+//    // otherTest实际上是test
+//    [self otherTest];
+//    NSLog(@"otherTest");
+//}
 
-- (void)otherTest
-{
-    // otherTest实际上是test
-    [self otherTest];
-    NSLog(@"otherTest");
-}
-
+#pragma mark - 消息转发
 /**
  消息转发
  1. 实例方法调用 resolveInstanceMethod
     类方法调用 resolveClassMethod
  */
-
 + (BOOL)resolveInstanceMethod:(SEL)sel
 {
     if (sel == @selector(test)) {
         NSLog(@"resolveInstanceMethod:");
+        
+        // 如果方法没实施，则动态添加方法
+        class_addMethod(self, @selector(test), testImp, "v@:");
+        
         return NO;
     }
     else {
