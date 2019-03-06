@@ -51,6 +51,10 @@
 		6595B7E6222F50BE00D08570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6595B7E5222F50BE00D08570 /* main.m */; };
 		6595B7EC222F50CD00D08570 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 6595B7EB222F50CD00D08570 /* Command.m */; };
 		6595B7EF222F50D700D08570 /* CommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6595B7EE222F50D700D08570 /* CommandManager.m */; };
+		6595B7F7222F67F500D08570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6595B7F6222F67F500D08570 /* main.m */; };
+		6595B7FD222F680500D08570 /* CharReverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6595B7FC222F680500D08570 /* CharReverse.m */; };
+		6595B800222FA61200D08570 /* ReverseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6595B7FF222FA61200D08570 /* ReverseList.m */; };
+		6595B803222FBAD700D08570 /* MergeSortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6595B802222FBAD700D08570 /* MergeSortedList.m */; };
 		65B7961B2228A2080010024F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B7961A2228A2080010024F /* AppDelegate.m */; };
 		65B7961E2228A2080010024F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B7961D2228A2080010024F /* ViewController.m */; };
 		65B796212228A2080010024F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B7961F2228A2080010024F /* Main.storyboard */; };
@@ -119,6 +123,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		6595B7E1222F50BE00D08570 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6595B7F2222F67F500D08570 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -239,6 +252,14 @@
 		6595B7EB222F50CD00D08570 /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 		6595B7ED222F50D700D08570 /* CommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandManager.h; sourceTree = "<group>"; };
 		6595B7EE222F50D700D08570 /* CommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandManager.m; sourceTree = "<group>"; };
+		6595B7F4222F67F500D08570 /* Arithmetic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arithmetic; sourceTree = BUILT_PRODUCTS_DIR; };
+		6595B7F6222F67F500D08570 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6595B7FB222F680500D08570 /* CharReverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharReverse.h; sourceTree = "<group>"; };
+		6595B7FC222F680500D08570 /* CharReverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharReverse.m; sourceTree = "<group>"; };
+		6595B7FE222FA61200D08570 /* ReverseList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseList.h; sourceTree = "<group>"; };
+		6595B7FF222FA61200D08570 /* ReverseList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseList.m; sourceTree = "<group>"; };
+		6595B801222FBAD700D08570 /* MergeSortedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSortedList.h; sourceTree = "<group>"; };
+		6595B802222FBAD700D08570 /* MergeSortedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSortedList.m; sourceTree = "<group>"; };
 		65B796172228A2080010024F /* Event.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Event.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B796192228A2080010024F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65B7961A2228A2080010024F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -339,6 +360,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6595B7F1222F67F500D08570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65B796142228A2080010024F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -432,6 +460,7 @@
 				6595B7C5222F491900D08570 /* Adapter */,
 				6595B7D6222F4B1000D08570 /* SingleInstance */,
 				6595B7E4222F50BE00D08570 /* Command */,
+				6595B7F5222F67F500D08570 /* Arithmetic */,
 				655E5113222822B20032E481 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -453,6 +482,7 @@
 				6595B7C4222F491900D08570 /* Adapter */,
 				6595B7D5222F4B1000D08570 /* SingleInstance */,
 				6595B7E3222F50BE00D08570 /* Command */,
+				6595B7F4222F67F500D08570 /* Arithmetic */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -561,6 +591,20 @@
 				6595B7EE222F50D700D08570 /* CommandManager.m */,
 			);
 			path = Command;
+			sourceTree = "<group>";
+		};
+		6595B7F5222F67F500D08570 /* Arithmetic */ = {
+			isa = PBXGroup;
+			children = (
+				6595B7F6222F67F500D08570 /* main.m */,
+				6595B7FB222F680500D08570 /* CharReverse.h */,
+				6595B7FC222F680500D08570 /* CharReverse.m */,
+				6595B7FE222FA61200D08570 /* ReverseList.h */,
+				6595B7FF222FA61200D08570 /* ReverseList.m */,
+				6595B801222FBAD700D08570 /* MergeSortedList.h */,
+				6595B802222FBAD700D08570 /* MergeSortedList.m */,
+			);
+			path = Arithmetic;
 			sourceTree = "<group>";
 		};
 		65B796182228A2080010024F /* Event */ = {
@@ -783,6 +827,23 @@
 			productReference = 6595B7E3222F50BE00D08570 /* Command */;
 			productType = "com.apple.product-type.tool";
 		};
+		6595B7F3222F67F500D08570 /* Arithmetic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6595B7F8222F67F500D08570 /* Build configuration list for PBXNativeTarget "Arithmetic" */;
+			buildPhases = (
+				6595B7F0222F67F500D08570 /* Sources */,
+				6595B7F1222F67F500D08570 /* Frameworks */,
+				6595B7F2222F67F500D08570 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arithmetic;
+			productName = Arithmetic;
+			productReference = 6595B7F4222F67F500D08570 /* Arithmetic */;
+			productType = "com.apple.product-type.tool";
+		};
 		65B796162228A2080010024F /* Event */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B7962A2228A2090010024F /* Build configuration list for PBXNativeTarget "Event" */;
@@ -904,6 +965,9 @@
 					6595B7E2222F50BE00D08570 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					6595B7F3222F67F500D08570 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					65B796162228A2080010024F = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -948,6 +1012,7 @@
 				6595B7C3222F491900D08570 /* Adapter */,
 				6595B7D4222F4B1000D08570 /* SingleInstance */,
 				6595B7E2222F50BE00D08570 /* Command */,
+				6595B7F3222F67F500D08570 /* Arithmetic */,
 			);
 		};
 /* End PBXProject section */
@@ -1101,6 +1166,17 @@
 				6595B7E6222F50BE00D08570 /* main.m in Sources */,
 				6595B7EC222F50CD00D08570 /* Command.m in Sources */,
 				6595B7EF222F50D700D08570 /* CommandManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6595B7F0222F67F500D08570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6595B7FD222F680500D08570 /* CharReverse.m in Sources */,
+				6595B803222FBAD700D08570 /* MergeSortedList.m in Sources */,
+				6595B7F7222F67F500D08570 /* main.m in Sources */,
+				6595B800222FA61200D08570 /* ReverseList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1596,6 +1672,30 @@
 			};
 			name = Release;
 		};
+		6595B7F9222F67F500D08570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6595B7FA222F67F500D08570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		65B7962B2228A2090010024F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1825,6 +1925,15 @@
 			buildConfigurations = (
 				6595B7E8222F50BE00D08570 /* Debug */,
 				6595B7E9222F50BE00D08570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6595B7F8222F67F500D08570 /* Build configuration list for PBXNativeTarget "Arithmetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6595B7F9222F67F500D08570 /* Debug */,
+				6595B7FA222F67F500D08570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
