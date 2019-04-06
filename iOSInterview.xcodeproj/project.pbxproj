@@ -43,6 +43,10 @@
 		658799B0222865E1004C2579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 658799AF222865E1004C2579 /* main.m */; };
 		658799B622286605004C2579 /* ViewReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 658799B522286605004C2579 /* ViewReusePool.m */; };
 		658799B9222868EA004C2579 /* IndexedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 658799B8222868EA004C2579 /* IndexedTableView.m */; };
+		658AF6392258266A000BFE83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 658AF6382258266A000BFE83 /* main.m */; };
+		658AF64222582734000BFE83 /* CopyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 658AF64122582734000BFE83 /* CopyTest.m */; };
+		658AF646225878A2000BFE83 /* ChenPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 658AF645225878A2000BFE83 /* ChenPerson.m */; };
+		658AF64A22587A0E000BFE83 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 658AF64922587A0E000BFE83 /* Person.m */; };
 		6595B7C7222F491900D08570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6595B7C6222F491900D08570 /* main.m */; };
 		6595B7CD222F492B00D08570 /* Target.m in Sources */ = {isa = PBXBuildFile; fileRef = 6595B7CC222F492B00D08570 /* Target.m */; };
 		6595B7D0222F496D00D08570 /* CoolTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 6595B7CF222F496D00D08570 /* CoolTarget.m */; };
@@ -64,6 +68,7 @@
 		65B796262228A2090010024F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B796242228A2090010024F /* LaunchScreen.storyboard */; };
 		65B796292228A2090010024F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B796282228A2090010024F /* main.m */; };
 		65B7962F2228A22C0010024F /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B7962E2228A22C0010024F /* CustomButton.m */; };
+		65E04D6722500F860082848B /* GroupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E04D6622500F860082848B /* GroupObject.m */; };
 		65EC6F17224EDB63009E7436 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EC6F16224EDB63009E7436 /* AppDelegate.m */; };
 		65EC6F1A224EDB63009E7436 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EC6F19224EDB63009E7436 /* ViewController.m */; };
 		65EC6F1D224EDB63009E7436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EC6F1B224EDB63009E7436 /* Main.storyboard */; };
@@ -104,6 +109,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		656C3F50222ECD270011E91B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		658AF6342258266A000BFE83 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -244,6 +258,14 @@
 		658799B522286605004C2579 /* ViewReusePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewReusePool.m; sourceTree = "<group>"; };
 		658799B7222868EA004C2579 /* IndexedTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexedTableView.h; sourceTree = "<group>"; };
 		658799B8222868EA004C2579 /* IndexedTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexedTableView.m; sourceTree = "<group>"; };
+		658AF6362258266A000BFE83 /* Questions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Questions; sourceTree = BUILT_PRODUCTS_DIR; };
+		658AF6382258266A000BFE83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		658AF64022582734000BFE83 /* CopyTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyTest.h; sourceTree = "<group>"; };
+		658AF64122582734000BFE83 /* CopyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyTest.m; sourceTree = "<group>"; };
+		658AF644225878A2000BFE83 /* ChenPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChenPerson.h; sourceTree = "<group>"; };
+		658AF645225878A2000BFE83 /* ChenPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChenPerson.m; sourceTree = "<group>"; };
+		658AF64822587A0E000BFE83 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		658AF64922587A0E000BFE83 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		6595B7C4222F491900D08570 /* Adapter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Adapter; sourceTree = BUILT_PRODUCTS_DIR; };
 		6595B7C6222F491900D08570 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6595B7CB222F492B00D08570 /* Target.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
@@ -284,6 +306,8 @@
 		65B796282228A2090010024F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65B7962D2228A22C0010024F /* CustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
 		65B7962E2228A22C0010024F /* CustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		65E04D6522500F860082848B /* GroupObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupObject.h; sourceTree = "<group>"; };
+		65E04D6622500F860082848B /* GroupObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupObject.m; sourceTree = "<group>"; };
 		65EC6F13224EDB63009E7436 /* GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65EC6F15224EDB63009E7436 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65EC6F16224EDB63009E7436 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -355,6 +379,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6587999B222865E0004C2579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658AF6332258266A000BFE83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -491,6 +522,7 @@
 				6595B7E4222F50BE00D08570 /* Command */,
 				6595B7F5222F67F500D08570 /* Arithmetic */,
 				65EC6F14224EDB63009E7436 /* GCD */,
+				658AF6372258266A000BFE83 /* Questions */,
 				655E5113222822B20032E481 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -514,6 +546,7 @@
 				6595B7E3222F50BE00D08570 /* Command */,
 				6595B7F4222F67F500D08570 /* Arithmetic */,
 				65EC6F13224EDB63009E7436 /* GCD.app */,
+				658AF6362258266A000BFE83 /* Questions */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -588,6 +621,36 @@
 				658799B8222868EA004C2579 /* IndexedTableView.m */,
 			);
 			path = IndexedBar;
+			sourceTree = "<group>";
+		};
+		658AF6372258266A000BFE83 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				658AF64322587886000BFE83 /* Self */,
+				658AF63D22582678000BFE83 /* Copy */,
+				658AF6382258266A000BFE83 /* main.m */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
+		658AF63D22582678000BFE83 /* Copy */ = {
+			isa = PBXGroup;
+			children = (
+				658AF64022582734000BFE83 /* CopyTest.h */,
+				658AF64122582734000BFE83 /* CopyTest.m */,
+			);
+			path = Copy;
+			sourceTree = "<group>";
+		};
+		658AF64322587886000BFE83 /* Self */ = {
+			isa = PBXGroup;
+			children = (
+				658AF644225878A2000BFE83 /* ChenPerson.h */,
+				658AF645225878A2000BFE83 /* ChenPerson.m */,
+				658AF64822587A0E000BFE83 /* Person.h */,
+				658AF64922587A0E000BFE83 /* Person.m */,
+			);
+			path = Self;
 			sourceTree = "<group>";
 		};
 		6595B7C5222F491900D08570 /* Adapter */ = {
@@ -672,6 +735,8 @@
 				65EC6F20224EDB65009E7436 /* LaunchScreen.storyboard */,
 				65EC6F23224EDB65009E7436 /* Info.plist */,
 				65EC6F24224EDB65009E7436 /* main.m */,
+				65E04D6522500F860082848B /* GroupObject.h */,
+				65E04D6622500F860082848B /* GroupObject.m */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -826,6 +891,23 @@
 			productName = IndexedBar;
 			productReference = 6587999E222865E0004C2579 /* IndexedBar.app */;
 			productType = "com.apple.product-type.application";
+		};
+		658AF6352258266A000BFE83 /* Questions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658AF63C2258266A000BFE83 /* Build configuration list for PBXNativeTarget "Questions" */;
+			buildPhases = (
+				658AF6322258266A000BFE83 /* Sources */,
+				658AF6332258266A000BFE83 /* Frameworks */,
+				658AF6342258266A000BFE83 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Questions;
+			productName = Questions;
+			productReference = 658AF6362258266A000BFE83 /* Questions */;
+			productType = "com.apple.product-type.tool";
 		};
 		6595B7C3222F491900D08570 /* Adapter */ = {
 			isa = PBXNativeTarget;
@@ -1003,6 +1085,7 @@
 		655E510A222822B20032E481 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Yi Zhang";
 				TargetAttributes = {
@@ -1014,6 +1097,7 @@
 					};
 					655E512E222822CD0032E481 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					656C3F43222EBF020011E91B = {
 						CreatedOnToolsVersion = 10.1;
@@ -1023,6 +1107,9 @@
 					};
 					6587999D222865E0004C2579 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					658AF6352258266A000BFE83 = {
+						CreatedOnToolsVersion = 10.2;
 					};
 					6595B7C3222F491900D08570 = {
 						CreatedOnToolsVersion = 10.1;
@@ -1085,6 +1172,7 @@
 				6595B7E2222F50BE00D08570 /* Command */,
 				6595B7F3222F67F500D08570 /* Arithmetic */,
 				65EC6F12224EDB63009E7436 /* GCD */,
+				658AF6352258266A000BFE83 /* Questions */,
 			);
 		};
 /* End PBXProject section */
@@ -1222,6 +1310,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		658AF6322258266A000BFE83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658AF646225878A2000BFE83 /* ChenPerson.m in Sources */,
+				658AF64222582734000BFE83 /* CopyTest.m in Sources */,
+				658AF64A22587A0E000BFE83 /* Person.m in Sources */,
+				658AF6392258266A000BFE83 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6595B7C0222F491900D08570 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1279,6 +1378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E04D6722500F860082848B /* GroupObject.m in Sources */,
 				65EC6F1A224EDB63009E7436 /* ViewController.m in Sources */,
 				65EC6F25224EDB65009E7436 /* main.m in Sources */,
 				65EC6F17224EDB63009E7436 /* AppDelegate.m in Sources */,
@@ -1607,24 +1707,39 @@
 		655E5134222822CD0032E481 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Y7626TS68;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		655E5135222822CD0032E481 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Y7626TS68;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1707,6 +1822,30 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Yi.IndexedBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		658AF63A2258266A000BFE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		658AF63B2258266A000BFE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -2044,6 +2183,15 @@
 			buildConfigurations = (
 				658799B1222865E1004C2579 /* Debug */,
 				658799B2222865E1004C2579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		658AF63C2258266A000BFE83 /* Build configuration list for PBXNativeTarget "Questions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658AF63A2258266A000BFE83 /* Debug */,
+				658AF63B2258266A000BFE83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

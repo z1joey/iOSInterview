@@ -32,7 +32,7 @@
 - (id)objectForKey:(NSString *)key
 {
     __block id obj;
-    // 同步读取指定数据
+    // 同步读取指定数据，保证其他线程可以同时调用
     dispatch_sync(concurrent_queue, ^{
         obj = [userCenterDic objectForKey:key];
     });
